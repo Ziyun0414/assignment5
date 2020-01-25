@@ -1,0 +1,401 @@
+body{
+    margin: 0;
+}
+
+nav{
+    width:100%;
+    display:flex;
+    justify-content: space-between;
+    background-color: black;
+    padding: 10px;
+}
+
+.nav-button a{
+    padding: 8px 16px;
+color: white;
+}
+
+.nav-search a{
+    padding: 8px 16px;
+    color: white;
+}
+
+header{
+    width: 100%;
+}
+
+.header-top{
+    background: white;
+    text-align: center;
+    padding: 30px;
+    font-family: oswald;
+}
+
+.header-top-title{
+    font-size: 40px;
+    
+}
+
+.header-top-description-welcome{
+    font-size: 16px;
+}
+
+.header-top-description-world{
+    background-color: black;
+    padding: 0px 5px;
+    color: white;
+    font-size: 16px;
+}
+
+.header-bottom{
+    height: 874.33px;
+    background-image: url(https://www.w3schools.com/w3images/jane.jpg);
+    color: white;
+    font-family: oswald;
+}
+
+.header-bottom-container{
+    position: absolute;
+    top:60%;
+    padding: 30px;
+    line-height: 15px;
+}
+.header-bottom-lineone{
+    font-size: 36px;
+}
+
+.header-bottom-linetwo{
+    font-size: 64px;
+}
+.header-bottom-subscription{
+    text-decoration: none;
+    padding:20px 10px;
+    color: black;
+    font-weight: bold;
+    background-color:rgba(255,255,255, 0.5);
+}
+
+.main{
+width: 100%;
+}
+
+.main-container{
+    margin: auto;
+    display: grid;
+    grid-template-columns: auto 360px;
+    grid-gap: 30px;
+    background-color: #f4f4f4;
+}
+
+.main-articles{
+    display: grid;
+    grid-template-rows: repeat(3,auto);
+    margin-left: 20px;
+    grid-gap: 10px;
+}
+
+.main-article-top {
+    background-color: white;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.main-article-top-content{
+    padding: 20px;
+}
+
+.title{
+    text-align: center;
+    padding: 0 20px 20px 20px;
+    font-weight: bold;
+    font-family: oswald;
+}
+
+.main-article-top-content-title{
+    font-size: 24px;
+}
+
+.main-article-top-content-details{
+    font-size: 16px;
+}
+
+.main-article-top-content-details-date{
+    color: darkgrey;
+}
+
+.image{
+    width: 100%;
+}
+
+.main-article-top-content-parapgrahs{
+margin: 20px 0;
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+line-height: 30px;
+}
+
+.more-hats{
+font-weight: bolder;
+}
+
+.main-article-top-content-response{
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 20px 0;
+    margin: 20px 0px;
+
+}
+.like{
+    padding: 10px 20px;
+    border: 1px solid grey;
+    margin: 0px;
+    color: black;
+    text-decoration: none;
+}
+
+.reply{
+    padding: 10px 20px;
+    border: 1px solid grey;
+    margin: 0px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+}
+
+.reply span{
+padding: 2px 5px;
+background-color: white;
+color: black;
+margin-left: 2px;
+}
+
+.main-article-content-comment{
+    display: flex;
+    justify-content: flex-start;
+    padding: 20px 0;
+    border-top: 1px solid darkgrey;
+}
+
+.main-article-content-comment img{
+    width: 100px;
+    height: 100px;
+}
+
+.main-article-content-comment-detail{
+    padding: 20px 20px 10px 20px;
+}
+
+.main-article-comment-detail-info-name{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.main-article-comment-detail-info-date{
+    color: darkgrey;
+}
+
+.main-nav {
+    margin: 25px 20px 25px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    grid-gap: 0;
+
+}
+
+.main-nav-name{
+  height: 360px;
+  margin: 0;
+}
+
+.main-nav-name img{
+    width: 100%;
+    height: 50%;
+    margin-bottom: 0;
+}
+
+.main-nav-name-text{
+    width: 100%;
+    height: 50%;
+    background-color: black;
+    color: white;
+    margin-top: 0;
+
+}
+
+.main-nav-name-text h2{
+   padding: 15px;
+    margin-top: 0;
+}
+
+.main-nav-name-text p{
+    padding: 0 15px;
+     margin-top: 0;
+ }
+
+ .main-nav-popular-post-container{
+     
+     margin:25px 0;
+     display: grid;
+     grid-template-rows: repeat (5,auto);
+ }
+
+ .nav-header{
+     background-color: black;
+     color: white;
+     margin:0;
+     padding: 20px 10px;
+     font-size: 20px;
+ }
+
+.main-nav-popular-post img{
+    width: 50px;
+    height: 50px;
+    padding: 15px 10px 10px 10px;
+}
+
+.main-nav-popular-post{
+    display: flex;
+    justify-content: flex-start;
+    padding: 0px 10px;
+    background: white;
+    border-bottom: 1px solid darkgrey;
+}
+
+
+.main-nav-popular-post-name{
+    font-size: 20px;
+    margin: 0;
+}
+
+.main-nav-popular-post-details{
+    padding: 10px;
+}
+
+.advertise{
+    display: grid;
+    grid-template-rows: repeat(2,auto);
+}
+
+.advertise-container{
+    height: 200px;
+    background-color:white;
+    margin-bottom: 30px;
+    box-sizing: border-box;
+}
+
+.AD{
+    width: 90%;
+    height: 90%;
+    background-color: #f4f4f4;
+    margin: 10px 5px 10px 10px ;
+
+}
+
+.AD p{
+    padding-top: 60px;
+    text-align: center;
+}
+
+.inspiration{
+    margin-bottom: 30px;
+    display: grid;
+    grid-template-rows: repeat(2,auto);
+}
+
+.Tags{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.tags-tags{
+    background-color: white;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    text-align: center;
+}
+.tags-tags p{
+    padding: 5px;
+    margin: 0;
+    background-color: #f4f4f4;
+    margin: 5px;
+}
+
+.tags-tags .Fashion{
+    background-color: black;
+    color: white;
+}
+
+.inspiration-photos{
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    background-color: white;
+
+}
+.inspiration-photos img{
+width: 120px;
+height: 100px;
+margin: 10px 10px 10px 30px;
+}
+
+.followme{
+    margin-bottom: 20px;
+    display: block;
+}
+
+.logos{
+    padding: 10px 20px;
+    background-color: white;
+}
+
+.logos i{
+    color: black;
+}
+
+.subscribe-content{
+    padding: 0px 0 20px 0px;
+    background-color: white; 
+}
+
+.subscribe-container{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.subscribe-content a{
+padding: 10px 20px;
+background-color: #f44336;
+margin-top: 20px;
+text-align: center;
+text-decoration: none;
+color: white;
+}
+
+footer{
+    background-color: darkgrey;
+    padding: 20px 10px 60px 20px;
+}
+
+.scroll{
+    width: 100px;
+    padding: 10px 20px;
+    background-color: black;
+}
+
+.scroll a{
+    color: white;
+    text-decoration: none;
+}
+
+.footer-container p{
+    color: white;
+}
+
+.footer-container a{
+    color: white;
+}
+
